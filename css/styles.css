@@ -113,6 +113,8 @@ img {
 }
 .header-mail, 
 .header-tell {
+    display: flex;
+    align-items: center;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -374,6 +376,7 @@ img {
 .footer-item:not(:last-child) {
     margin-bottom: 9px;
 }
+
 .link-map {
     font-size: 14px;
     line-height: 1.71;
@@ -401,6 +404,7 @@ img {
 }
 .footer-title {
     font-size: 14px;
+    font-weight: 700;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -412,7 +416,6 @@ img {
 }
 .soc-link {
     margin-right: 10px;
-    margin-bottom: 30px;
     width: 44px;
     height: 44px;
 }
@@ -487,9 +490,6 @@ img {
 }
 .filter-list-btn:not(:last-child) {
     margin-right: 8px;
-}
-.link:not(:last-child) {
-    margin-bottom: 9px;
 }
 .btn:hover,
 .btn:focus{
